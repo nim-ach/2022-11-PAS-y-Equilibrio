@@ -1,0 +1,133 @@
+---
+title: ""
+bibliography: "misc/ref.bib"
+csl: "misc/vancouver.csl"
+output: 
+  word_document:
+    reference_docx: "ref.docx"
+---
+
+**Título**: [título]
+
+**Title**: [title]
+
+**Autores**: Primer autor,^1^ Segundo autor,^2^ Tercer autor,^3^ Cuarto autor,^4^ Quinto autor,^5^ Sexto autor.^6^ \*
+
+::: {custom-style="Afiliation"}
+^1^ Afiliación, lugar.
+
+^2^ Afiliación, lugar.
+
+^3^ Afiliación, lugar.
+
+^4^ Afiliación, lugar.
+
+^5^ Afiliación, lugar.
+
+^6^ Afiliación, lugar.
+:::
+
+### \*Autor de correspondencia 
+
+Autor, Afiliación, lugar. e-mail: autor\@mail.com. 
+Dirección: XXXX. Teléfono: XXXX.
+
+\newpage
+
+## Resumen  
+
+**Objetivo**: [...]. **Material y métodos**: [...]. **Resultados**: [...]. **Conclusión**: [...].
+
+**Palabras clave**: [...].
+
+\newpage
+
+## Abstract 
+
+**Objective**: [...]. **Material and methods**: [...]. **Results**: [...]. **Conclusion**: [...].
+
+**Keywords**: [...].
+
+\newpage
+
+# Introducción
+
+<!---- Antecedentes históricos ---->
+[...].
+
+<!---- Conceptualización del problema ---->
+[...].
+
+<!---- Hipótesis y objetivos ---->
+[...].
+
+# Material y métodos
+
+## Participantes
+
+[...]. 
+
+## Instrumentos
+
+### Instrumento 1 
+
+[...].
+
+### Instrumento 2
+
+[...].
+
+### Instrumento 3 
+
+[...].
+
+### Instrumento 4 
+
+[...].
+
+
+## Procedimiento 
+
+[...].
+
+[...].  
+
+## Análisis estadístico
+
+Para el reporte de las variables, usamos la media y desviación estándar (media ± SD) para la descripción de las variables numéricas, y la frecuencia absoluta y relativa para la descripción de las variables categóricas.
+
+Para las pruebas de hipótesis utilizó estadística paramétrica, dado que la distribución empírica de los datos seguía una distribución aproximadamente gausiana, lo cual fue evaluado mediante técnicas de visualización y pruebas de normalidad.
+
+Se usó el coeficiente de correlación de Pearson para evaluar la relación entre las variables de equilibrio en sus diferentes modalidades y el puntaje del HSPS, posteriormente describimos la probabilidad de pertenecer a un cierto grupo de alteración postural en respuesta al puntaje del HSPS mediante la aplicación de modelos de regresión logística ordinal.
+
+Se fijó el nivel de significancia al 5% ($\alpha$ = 0.05) para las pruebas de hipótesis. Se usó el lenguaje de programación *R* para la computación de los estadísticos [@rlanguage], junto con otros paquetes complementarios para el análisis y visualización [@correlation; @mass; @marginaleffects; @ggplot2].
+
+# Resultados
+
+
+
+[...]. 
+
+# Discusión
+
+[...].
+
+[...].
+
+[...].
+
+# Conclusión
+
+[...]. 
+
+# Agradecimientos
+
+[...].
+
+# Conflictos de interés
+
+[...].
+
+# Referencias
+
+<div id="refs"></div>
