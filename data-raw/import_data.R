@@ -16,6 +16,10 @@ comma_to_dot <- function(x) {
   return(x)
 }
 
+riskfall[height < 10, height := height * 100]
+riskfall[weight > 200, weight := weight/10]
+riskfall[, bmi := round(weight/(height/100)^2, 2)]
+
 riskfall <- within(riskfall, {
   # Body mass index to factor
   bmi_category = data.table::fcase(tolower(bmi_category) %like% "insuf", "Infrapeso",
