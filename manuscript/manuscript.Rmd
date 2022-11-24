@@ -1,10 +1,12 @@
 ---
 title: ""
 bibliography: "misc/ref.bib"
-csl: "misc/vancouver.csl"
+#csl: "misc/vancouver.csl"
 output: 
   word_document:
     reference_docx: "ref.docx"
+editor_options: 
+  chunk_output_type: console
 ---
 
 **Título**: [título]
@@ -98,15 +100,46 @@ Para el reporte de las variables, usamos la media y desviación estándar (media
 
 Para las pruebas de hipótesis utilizó estadística paramétrica, dado que la distribución empírica de los datos seguía una distribución aproximadamente gausiana, lo cual fue evaluado mediante técnicas de visualización y pruebas de normalidad.
 
-Se usó el coeficiente de correlación de Pearson para evaluar la relación entre las variables de equilibrio en sus diferentes modalidades y el puntaje del HSPS, posteriormente describimos la probabilidad de pertenecer a un cierto grupo de alteración postural en respuesta al puntaje del HSPS mediante la aplicación de modelos de regresión logística ordinal.
+Se usó el coeficiente de correlación de Pearson para evaluar la relación entre las variables de equilibrio en sus diferentes modalidades y el puntaje del HSPS. Para comparar el puntaje de HSPS entre las categorías de posturometría se usó análisis de varianza (ANOVA) y eta cuadrado ($\eta^2$) como medida de tamaño del efecto, usando estimación de contrastes marginales para la comparación por pares de grupos como análisis post-hoc [@marginaleffects], sin corrección por comparaciones múltiples dada la naturaleza exploratoria del estudio, reportando en este último la diferencia media estimada e intervalo de confianza al 95% (CI~95%~).
 
-Se fijó el nivel de significancia al 5% ($\alpha$ = 0.05) para las pruebas de hipótesis. Se usó el lenguaje de programación *R* para la computación de los estadísticos [@rlanguage], junto con otros paquetes complementarios para el análisis y visualización [@correlation; @mass; @marginaleffects; @ggplot2].
+Posteriormente describimos la probabilidad de tener una alteración postural en respuesta al puntaje del HSPS mediante la aplicación de un modelo de regresión logística, reportando la razón de verosimilitudes (OR) y su correspondiente CI~95%~ como estimadores de efecto.
+
+Se fijó el nivel de significancia al 5% ($\alpha$ = 0.05) para las pruebas de hipótesis. Se usó el lenguaje de programación *R* para la computación de los estadísticos [@rlanguage], junto con otros paquetes complementarios para el análisis y visualización [@correlation; @marginaleffects; @ggplot2].
 
 # Resultados
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, 
+                      message = FALSE,
+                      echo = FALSE)
 
+source("manuscript/misc/setup.R")
+```
 
-[...]. 
+Las características de la muestra evaluada, así como la comparación para las variables de equilibrio y HSPS por sexo se encuentran en la [Tabla 1](#tab1). No se observaron correlaciones significativas entre los parámetros de equilibrio, evaluados con posturometría, y HSPS (*p* > 0.185).
+
+```{r, eval=FALSE}
+mod <- muestra[, j = lm(hsps_score ~ factor(posturography_cat_ec))]
+
+effectsize::effectsize(anova(mod), 
+                       alternative = "two.sided")
+
+modelbased::estimate_contrasts(mod,
+                               contrast = "posturography_cat_ec",
+                               p_adjust = "none")
+```
+
+Al evaluar la relación entre las clasificaciones de los parámetros de equilibrio y HSPS, observamos un efecto significativo de la categoría de posturografía con OC sobre este último (*F*(2, 39) = 3.34, *p* = 0.046; $\eta^2$ = 0.15, CI~95%~[0, 0.34]). En la estimación de los contrastes marginales, observamos diferencias significativas entre la categoría 1 y 3 de posturografía con OC (diferencia media = 9.05, CI~95%~[1.33, 16.76], *t*(39) = 2.37, *p* = 0.023), pero no entre los niveles 1 y 2 (diferencia media = 13.05, CI~95%~[-4.89, 30.98], *t*(39) = 1.47, *p* = 0.149), ni 2 y 3 (diferencia media = -4.00, CI~95%~[-22.10, 14.10], *t*(39) = -0.45, *p* = 0.657) de este mismo dominio. No se observaron diferencias en las demás categorías de posturometría en el puntaje de HSPS.
+
+```{r, eval=FALSE}
+mod <- muestra[posturography_cat_ec != 2, glm(factor(posturography_cat_ec) ~ hsps_score, binomial)]
+
+cbind(coef(mod), confint(mod)) |> 
+  exp() |> 
+  round(2)
+```
+
+Al evaluar el efecto que tuvo el puntaje de HSPS como un predictor del resultado de la posturometría con OC, observamos que por cada incremento en una unidad en el puntaje HSPS, existe una disminución en un 6% en la probabilidad de tener una posturometría alterada (OR = 0.94 CI~95%~[0.88, 0.99], *p* = 0.031). Esta asociación escalada como probabilidad y OR puede observarse en la [Figura 1](#fig1).
 
 # Discusión
 
@@ -131,3 +164,9 @@ Se fijó el nivel de significancia al 5% ($\alpha$ = 0.05) para las pruebas de h
 # Referencias
 
 <div id="refs"></div>
+
+\newpage
+
+[**Tabla 1**]{#tab1}. Características sociodemográficas de la muestra de estudio, se presenta la diferencia media observada, intervalo de confianza y significancia estadística de la prueba t de Student para las comparaciones entre hombres y mujeres por parámetro.
+
+[**Figura 1**]{#fig1}. Curvas de probabilidad de obtener una posturometría con OC alterada dependiendo del puntaje de HSPS en escala de probabilidad (A) y OR (B).
