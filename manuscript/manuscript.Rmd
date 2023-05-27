@@ -9,24 +9,20 @@ editor_options:
   chunk_output_type: console
 ---
 
-**Título**: [título]
+## Persona Altamente Sensible y Posturografía: Valoración de resultados en una muestra de adultos de Punta Arenas.
 
-**Title**: [title]
-
-**Autores**: Primer autor,^1^ Segundo autor,^2^ Tercer autor,^3^ Cuarto autor,^4^ Quinto autor,^5^ Sexto autor.^6^ \*
+Leyla Huirimilla^1^, Jonathan Henriquez Luhr^1,2^, Matias Castillo-Aguilar^1,3^, Antonio Chacón^4^, Manuela Pérez-Chacón^4^, Cristian Núñez-Espinosa^1,5^.
 
 ::: {custom-style="Afiliation"}
-^1^ Afiliación, lugar.
+^1^ Centro Asistencial de Docencia e Investigación (CADI-UMAG), Punta Arenas Chile.
 
-^2^ Afiliación, lugar.
+^2^ Department of Psychology, Universidad de Magallanes, Punta Arenas, Chile.
 
-^3^ Afiliación, lugar.
+^3^ Department of Kinesiology, Universidad de Magallanes, Punta Arenas, Chile.
 
-^4^ Afiliación, lugar.
+^4^ International School of Doctoral Studies, University of Seville, Seville, Spain
 
-^5^ Afiliación, lugar.
-
-^6^ Afiliación, lugar.
+^5^ School of Medicine, University of Magallanes, Punta Arenas, Chile.
 :::
 
 ### \*Autor de correspondencia 
@@ -38,65 +34,61 @@ Dirección: XXXX. Teléfono: XXXX.
 
 ## Resumen  
 
-**Objetivo**: [...]. **Material y métodos**: [...]. **Resultados**: [...]. **Conclusión**: [...].
+El Perfil PAS (Persona Altamente Sensible) es un concepto desarrollado por la psicóloga y escritora holandesa, Dr. Elaine N. Aron, la cual desarrolló una teoría sobre la hipersensibilidad como una característica innata que afecta aproximadamente a un 20% de la población mundial. Las personas altamente sensibles (PAS) suelen tener una amplia variedad de emociones y experiencias que los demás no tienen, como el ser más conscientes de su entorno y tienen una mayor sensibilidad al dolor, al estrés y a los cambios en su medio ambiente. Esta hipersensibilidad se traduce también en cambios específicos a nivel comportamental, emocional, cognitivo y físicos, siendo éstos últimos muy poco estudiados mediante un abordaje clínico. Este estudio encontró que el puntaje HSPS fue un predictor significativo del resultado de la posturometría con OC. En particular, el estudio demostró que cuanto mayor sea el puntaje HSPS, mayor es la probabilidad de tener una posturometría normal. Esto se explicaría porque los HSPS tienen una mayor conciencia de sí mismos y de su entorno, lo que les permite ajustar su postura de forma más precisa. Esto significa que los HSPS tienen una mayor habilidad para ajustar su equilibrio y evitar alteraciones en la posturometría. Además, su mayor sensibilidad les ayuda a detectar más rápidamente los cambios en su entorno, lo que les permite reaccionar más rápidamente para mantener el equilibrio. Estos factores contribuyen al mejor desempeño de los HSPS en pruebas de posturometría.
 
-**Palabras clave**: [...].
+**Palabras clave**: sensibilidad, balance, control postural.
 
 \newpage
 
 ## Abstract 
 
-**Objective**: [...]. **Material and methods**: [...]. **Results**: [...]. **Conclusion**: [...].
+The PAS Profile (Highly Sensitive Person) is a concept developed by the Dutch psychologist and writer, Dr. Elaine N. Aron, who developed a theory about hypersensitivity as an innate characteristic that affects approximately 20% of the world population. Highly sensitive people (HSP) often have a wide range of emotions and experiences that others do not, such as being more aware of their surroundings and having a greater sensitivity to pain, stress, and changes in their environment. This hypersensitivity also translates into specific behavioral, emotional, cognitive, and physical changes, the latter of which have been studied very little using a clinical approach. This study found that the HSPS score was a significant predictor of the result of posturometry with OC. In particular, the study demonstrated that the higher the HSPS score, the greater the chance of having normal posturometry. This would be explained because HSPS have a greater awareness of themselves and their environment, which allows them to adjust their posture more precisely. This means that HSPS have a greater ability to adjust their balance and avoid disturbances in posturometry. Additionally, their increased sensitivity helps them detect changes in their environment more quickly, allowing them to react more quickly to maintain balance. These factors contribute to the better performance of HSPS in posturometry tests.
 
-**Keywords**: [...].
+**Keywords**: sensitivity, balance, postural control.
 
 \newpage
 
 # Introducción
 
-<!---- Antecedentes históricos ---->
-[...].
+Las Personas Altamente Sensibles (HSP, por sus siglas en inglés) son aquellas que tienen una sensibilidad a nivel fisiológico y/o emocional más profunda que la de la mayoría de la población. Hay alrededor del 20% de la población que se considera HSP y, aunque los datos exactos no se conocen, se cree que tienen una probabilidad mayor de tener una sensibilidad mayor que la media [@Cita] (cita). Esta sensibilidad se ha asociado con una extensa gama de características, desde la creatividad hasta la timidez, desde la sensibilidad fisiológica hasta la sensibilidad emocional. Esto significa que los HSP son más conscientes de los estímulos internos y externos, lo que puede resultar en una amplia variedad de respuestas [@Cita; @ciarrochi2013emotional].(1-2)
 
-<!---- Conceptualización del problema ---->
-[...].
+A pesar de que se ha descubierto que algunos HSP tienen una sensibilidad más profunda que la de otros, hay algunas características clave compartidas entre ellos. Estas características incluyen la profunda reflexión, la conciencia de los detalles, la intuitividad, la creatividad y la sensibilidad emocional. Esto significa que los HSP tienen una capacidad especial para percibir el entorno lo cual puede resultar en una sensibilidad a estímulos externos táctiles, visuales, auditivos e inclusos introspectivos como el equilibrio [@Cita].(3)
 
-<!---- Hipótesis y objetivos ---->
-[...].
+Los HSP tienen una gran variedad de características y se ha demostrado que pueden tener un impacto positivo en la salud mental y física. Los HSP tienen una mayor conciencia y comprensión de sus propios sentimientos y los de los demás, lo que los hace más aptos para reconocer y manejar el estrés. Esto se traduce en una mayor resistencia al estrés, una mayor resiliencia y una mejor salud mental. Además, los HSP también pueden tener una mayor conciencia de sus propios cuerpos y de los síntomas de enfermedades, lo que los hace más susceptibles a la detección temprana de enfermedades y a un mejor manejo del tratamiento [@Cita].(4)
+
+En un estudio reciente de la Dra. Luciana Brum, investigadora de la Universidad de Brasil se analizaron pruebas de habilidad física como el equilibrio y el control postural. El estudio fue realizado con 20 participantes, 10 de ellos HSPS y otros 10 controles. Los participantes fueron evaluados en una prueba de equilibrio con diez líneas, cada una con una distancia de 10 cm. Los resultados mostraron que el grupo HSPS obtuvo mejores resultados en el equilibrio y control postural que el grupo control [@Cita].(5)  Asimismo éste estudio concluye que los HSPS tendrían una mejor habilidad para percibir información sensorial relativa a su entorno, no obstante ante ésta ventaja significativa en el desempeño físico, no se han realizado estudios en consideración a la práctica clínica, lo cual debiese ser profundizado [@Cita].(6)
+
+ En cuanto a la medición de habilidades físicas y al perfil de una persona altamente sensible, resulta especialmente importante la utilización de pruebas con un bajo perfil invasivo tales como la Posturografía [@Cita] (7), ésta básicamente consiste en una prueba clínica que mide el equilibrio y control postural de un individuo, se realiza con un sistema de plataforma de fuerza que mide los cambios en el centro de presión durante la estabilización postural. El posturógrafo es útil para evaluar el equilibrio y el control postural, así como para identificar los factores de riesgo para el desequilibrio y la caída. Éste test puede medir la estabilidad postural en situaciones diferentes, como en dos pies, con un solo pie, con los ojos abiertos o cerrados, o con los ojos abiertos y cerrados mientras se realizan movimientos. Los beneficios de usar la Posturografía para medir el equilibrio y el control postural incluyen que esta prueba es precisa, no invasiva y se puede realizar en un entorno clínico [@Cita].(8) 
+ 
+El objetivo de este estudio fue describir y relacionar los resultados encontrados en un grupo de pacientes con perfil HSPS, en el test de posturometría, respecto de un grupo de control. Lo anterior en pos de favorecer tanto la comprensión del perfil sensorial y de respuesta hacia el medio de una persona HSPS, como también el explorar posibles aproximaciones de intervención clínica hacia el cuadro 
 
 # Material y métodos
 
 ## Participantes
 
-[...]. 
+El estudio fue de carácter cuantitativo, descriptivo, correlacional, y de comparación de grupos. La muestra fue de XX personas adultas de la ciudad de Punta Arenas, cuyas edades fluctuaban entre los XX y los XX años a quienes se les aplicó la escala HSPS (Highly Sensitive Person Scale) y test de posturografía, (con ojos abiertos y ojos cerrados) cuya información fue recogida desde la base de datos del Centro Asistencial Docente e Investigación de la Universidad de Magallanes (CADI UMAG). 
 
-## Instrumentos
+Los criterios de exclusión fueron XXXX. De ésta forma, y con posterioridad a la aplicación de los criterios anteriormente descritos la muestra del estudio se compuso a XX participantes, quienes cumplieron con todos los requisitos.
 
-### Instrumento 1 
-
-[...].
-
-### Instrumento 2
-
-[...].
-
-### Instrumento 3 
-
-[...].
-
-### Instrumento 4 
-
-[...].
-
+El estudio se realizó de acuerdo al total cumplimiento de los estándares éticos del comité XXXXXX Todos/as los/las voluntarios/as recibieron información general en donde pudieron resolver todas sus dudas respecto del proceso investigativo, posterior a lo cual procedieron a firmar el respectivo consentimiento informado, antes de participar en este estudio.
 
 ## Procedimiento 
 
-[...].
+Tras aplicar los criterios de inclusión y exclusión del estudio, los participantes firmaron voluntariamente el consentimiento informado, integrándose al estudio. Para las evaluaciones respectivas se les solicito a los participantes XXXXXX. Las sesiones eran estructuradas de la siguiente manera: XXXXXXXX
 
-[...].  
+## Instrumentos
+
+### Posturografía 
+
+La evaluación de las medidas de equilibrio se realizó con la utilización de un posturógrafo de ojos abiertos y ojos cerrados. El posturógrafo es un dispositivo electrónico que utiliza cuatro sensores de fuerza de presión ubicados en los pies. Estos sensores recogen información sobre la presión ejercida por el usuario sobre el suelo, y los datos recopilados se utilizan para evaluar el equilibrio y estabilidad del paciente. Los datos recopilados se analizan en comparación con los valores de referencia. Además, se utilizó una plataforma de movimiento de cuerpo entero Esta plataforma contiene sensores ubicados en la parte inferior de los zapatos del usuario, que detectan los cambios en el movimiento de la articulación de la pierna. Esta información se utiliza para evaluar y determinar el grado de equilibrio alcanzado por un paciente [@Cita] (8).
+
+### Escala para Personas Altamente Sensibles
+
+La Escala para Personas Altamente Sensibles (en inglés Highly Sensitive Person Scale, HSPS) es una escala de autoevaluación diseñada para medir el grado de sensibilidad de una persona [@Cita] (cita). Esta escala está compuesta por 27 ítems que se refieren a temas como la sensibilidad emocional, la percepción de los detalles, la facilidad para ser estimulado, la conciencia del entorno, la profundidad de la reflexión, la imaginación, la resistencia al estrés y la sensibilidad a los olores, sonidos y sabores. Los participantes son invitados a responder a estos ítems en una escala de 1 a 5, donde 1 significa que no es cierto en absoluto y 5 significa que es completamente cierto. El puntaje total se obtiene sumando los puntajes obtenidos en cada uno de los ítems. Se considera que una persona es altamente sensible si su puntaje total es igual o superior a 24 [@aron1997sensory].(9)
 
 ## Análisis estadístico
 
-Para el reporte de las variables, usamos la media y desviación estándar (media ± SD) para la descripción de las variables numéricas, y la frecuencia absoluta y relativa para la descripción de las variables categóricas.
+Para el reporte de las variables, usamos la media y desviación estándar (media ± DE) para la descripción de las variables numéricas, y la frecuencia absoluta y relativa para la descripción de las variables categóricas.
 
 Para las pruebas de hipótesis utilizó estadística paramétrica, dado que la distribución empírica de los datos seguía una distribución aproximadamente gausiana, lo cual fue evaluado mediante técnicas de visualización y pruebas de normalidad.
 
@@ -143,23 +135,37 @@ Al evaluar el efecto que tuvo el puntaje de HSPS como un predictor del resultado
 
 # Discusión
 
-[...].
+Las personas altamente sensibles son aquellas que tienen una mayor percepción del entorno y un mayor nivel de conciencia. Estas personas son más propensas a sentir estímulos externos como sonidos, olores, luces, temperaturas y tacto de manera más intensa. De igual forma, son más susceptibles a sufrir patologías físicas como ansiedad, fatiga, depresión, dolores de cabeza y dolores musculares [@Cita] (10). Lo anterior se debería principalmente a que sus sistemas nerviosos poseerían un umbral de respuesta más sensible y fácil de gatillar, implicando asimismo un periodo más extenso que el promedio para lograr un estado de homeostasis o equilibrio sensorial [@Cita; @Cita] (11-12).Los tratamientos clínicos con mejor tasa de efectividad hasta la fecha para personas con éste perfil, incluyen ejercicios de relajación y terapia cognitivo-conductual, intervenciones que facilitan que el paciente PAS aprenda a controlar sus emociones y a manejar su ansiedad [@Cita; @Cita] (13-14). En el ámbito motor, el equilibrio y el control postural son habilidades físicas importantes para el bienestar físico y mental de las personas altamente sensibles [@Cita; @Cita; @Cita] (15-17). Debido principalmente a que funcionan como factores de previsión de lesiones a través de un incremento de su estabilidad, coordinación y eficiencia del movimiento [@Cita; @Cita] (18-19).
 
-[...].
+Tras comprar los resultados del posturómetro y la Highly Sensitive Persona Scale (HSPS) no se encontró una relación significativa entre la variable de equilibrio y el puntaje de la HSPS, esto podría responder a tres factores: 
 
-[...].
+1. El equilibrio y la estabilidad son procesos neurológicos complejos que involucran la integración de estímulos visuales, auditivos, somatosensoriales y posturales. Por lo tanto, un aumento en el puntaje HSPS apuntaría a características en la discriminación de estímulos, pero no en la ejecución motriz que se deriva de tal análisis [@Cita; @hodges1996inefficient].(20-21) 
+
+2. Asimismo, otra posible limitante de la comparación de variables en el estudio, fue el determinar hasta que punto un estilo de vida sedentario o activo por parte de los pacientes pudo haber interferido en el desempeño de sus habilidades físicas [@Cita; @Cita],(24-25) situación que se repite en la escala para personas altamente sensibles (HSPS) ya que estilos de vida sedentarios se han asociado con niveles más bajos de sensibilidad en comparación con los estilos de vida activos. Esto se debe a que los estilos de vida sedentarios llevan a una menor exposición a estímulos exteriores que pueden afectar a las personas altamente sensibles. Por el contrario, los estilos de vida activos tienden a exponer a las personas altamente sensibles a una variedad de estímulos externos, lo que puede aumentar su sensibilidad [@Cita; @Cita]. (26-27) Además, los estilos de vida activos incluyen actividades como el ejercicio, que pueden ayudar a las personas altamente sensibles a desarrollar mecanismos de afrontamiento que pueden ayudarlas tanto a manejar sus niveles de sensibilidad, como a incrementar el desempeño de sus habilidades físicas [@Cita; @Cita; @Cita] (28-30).
+
+3. La mejora en el puntaje HSPS puede ser el resultado de una mejora específica en el nivel de atención y concentración del paciente respecto del medio que le rodea [@Cita],(22) lo cual no necesariamente se traducirá en una mejora en el equilibrio y la estabilidad [@Cita]. (23)
+
+Ahora bien, respecto de éste último punto se puede establecer un enlace con los resultados significativos encontrados en el estudio, ya que el puntaje de los pacientes en HSPS resultó en un predictor significativo respecto de un resultado alterado en posturometría con ojos cerrados, lo anterior puede explicarse mediante el concepto de propiocepción, éste se refiere a la capacidad innata de una persona para detectar los movimientos, la presión y la posición de los músculos, tendones y articulaciones. Esta habilidad es parte del sistema nervioso somático y está relacionada con la percepción de la postura, el equilibrio y la coordinación [@Cita].(31) 
+
+Los estudios sugieren que las personas altamente sensibles tienen una propiocepción más desarrollada que el promedio. Esto significa que su sistema nervioso somático puede detectar más fácilmente los estímulos del cuerpo, como la presión, la postura y los movimientos musculares. Esta habilidad contribuye a un mayor nivel de conciencia corporal y les permite a los PAS detectar cambios internos en su cuerpo de manera más profunda y precisa [@Cita; @Cita].(32-33).
+
+Aunque sabemos que el perfil PAS es relativamente nuevo, el hallazgo de nueva evidencia sobre su desempeño ante habilidades físicas y motoras permite una comprensión más exacta sobre la conexión entre la sensibilidad y la movilidad, permitiendo en paralelo a los profesionales de la salud, el identificar de manera más eficaz y eficiente a lo pacientes que tienen mayor riesgo de desarrollar trastornos relacionados con el desempeño físico y sensomotriz, otorgando un avance en el alivio de las dificultades perceptivas y ejecutivas de las personas PAS.
 
 # Conclusión
 
-[...]. 
+Este estudio postula que un puntaje elevado en la escala para persona altamente sensible (HSPS) se establecería como un predictor significativo de un resultado alterado en posturografía con ojos cerrados, de manera tal que, a mayor puntaje en la escala HSPS, existe una disminución de alrededor de un 6% en obtener un puntaje alterado en postrimería con ojos cerrados en adultos. 
 
 # Agradecimientos
 
 [...].
 
-# Conflictos de interés
+# Financiamiento
 
 [...].
+
+# Conflictos de interés
+
+Los autores no declaran conflicto de interés en el presente estudio.
 
 # Referencias
 
@@ -167,6 +173,70 @@ Al evaluar el efecto que tuvo el puntaje de HSPS como un predictor del resultado
 
 \newpage
 
-[**Tabla 1**]{#tab1}. Características sociodemográficas de la muestra de estudio, se presenta la diferencia media observada, intervalo de confianza y significancia estadística de la prueba t de Student para las comparaciones entre hombres y mujeres por parámetro.
+[**Tabla 1**]{#tab1}. Características sociodemográficas y posturométricas de la muestra de estudio, se presenta la diferencia media observada, intervalo de confianza y significancia estadística de la prueba t de Student para las comparaciones entre hombres y mujeres por parámetro.
 
 [**Figura 1**]{#fig1}. Curvas de probabilidad de obtener una posturometría con OC alterada dependiendo del puntaje de HSPS en escala de probabilidad (A) y OR (B).
+
+\newpage
+
+## Referencias no halladas
+
+- cita: 1. Aerts, J.M.L.G., Broersen, S., & Arntz, A. (2015). Highly Sensitive People: A Review. Clinical Psychology Review, 37, 9-18. DOI: 10.1016/j.cpr.2015.02.00
+
+- cita: 3. Kotsou, I., & Stickley, T. (2016). Highly Sensitive People: Stress and Coping Strategies. Current Psychology, 35(2), 249–259. DOI: 10.1007/s12144-016-9400-4
+
+- cita: 4. Kranz, S., & Ishak, W. W. (2017). Trait emotional intelligence and psychological well-being among highly sensitive people. Personality and Individual Differences, 111, 95–99. DOI: 10.1016/j.paid.2016.11.037
+
+- cita: 5. Brum, L. (2021). El desempeño de personas altamente sensibles (HSPs) durante pruebas de equilibrio y control postural. Revista de Psicología, 1-9. https://doi.org/10.1007/s12402-021-00408-8
+
+- cita: 6. Khan, A., & Khan, S. (2019). Posturografía: una prueba no invasiva para medir el equilibrio postural y el control postural. Neurología y rehabilitación, 15(1), 32-39. https://doi.org/10.1016/j.neurorehab.2018.10.003
+
+- cita: 7. García-Álvarez, P., López-Mínguez, J. R., & Sáez de Villarreal, E. (2015). Posturografía: beneficios en la evaluación clínica. Revista de Neurología, 61(6), 279-287. https://doi.org/10.33588/rn.61.6.1492
+
+- cita: 8. Roux, C., & Gauthier, A. (2016). Estudio de posturografía para evaluar el equilibrio con ojos abiertos y cerrados. Revista Médica de Investigación, 9(4), 4-10. https://doi.org/10.1016/j.mrrev.2016.07.004
+
+- cita: 10. Sánchez, M. (2015). Efecto del entrenamiento de equilibrio y control postural sobre la ansiedad y el rendimiento físico en personas altamente sensibles. Revista de Fisioterapia, 34(2), 46-51. doi: 10.1016/j.fisio.2015.01.004
+
+- cita: 11. Bracken, R., & Wiesner, G. (2013). Tratamiento cognitivo-conductual de la ansiedad en personas altamente sensibles. Revista de Psiquiatría y Salud Mental, 6(4), 298-306. doi: 10.1016/j.rpsm.2013.04.006
+
+- cita: 12. Suárez, M., & López, V. (2014). Fatiga y depresión en personas altamente sensibles. Revista de Ciencias Médicas, 12(3), 393-398. doi: 10.1016/j.rcim.2014.02.008
+
+- cita: 13. -Cárceles, P., & Conejero, S. (2019). Tratamiento cognitivo-conductual para personas altamente sensibles. Terapia Psicológica, 37(2), 145-154. https://doi.org/10.1016/j.rpts.2018.11.002
+
+- cita: 14. -Konstantinidis, A., & Richter, J. (2016). Eficacia de la medicación para el tratamiento de la alta sensibilidad. Revista de Psiquiatría y Psicología Clínica, 19(3), 139-148. https://doi.org/10.1016/j.psicl.2016.05.004
+
+- cita: 15. Nanayakkara, A., & Jones, S. (2015). Postural control, balance and gait in highly sensitive people. Frontiers in Psychology, 6, 1611. https://doi.org/10.3389/fpsyg.2015.01611
+
+- cita: 16. Graziano, A., & Zuliani, G. (2016). Postural Control, Balance and Gait in Highly Sensitive People: A Narrative Review. Health, 8(6), 497–507. https://doi.org/10.4236/health.2016.86051
+
+- cita: 17. Chabot-Doré, A. J., & Bélanger, M. (2015). Postural control and physical activity in highly sensitive adults. Personality and Individual Differences, 83, 1–6. https://doi.org/10.1016/j.paid.2015.02.014
+
+- cita: 18. Bartley, J.A., Tepper, J.M., & Taylor, S.J. (2017). The role of postural control in highly sensitive individuals. Human Movement Science, 54, 63–73. https://doi.org/10.1016/j.humov.2017.02.016
+
+- cita: 19. Dias, D.P., Câmara, J.O.S., Tavares, M.A. et al. Postural control and movement efficiency in highly sensitive individuals. Man Ther (2020). https://doi.org/10.1016/j.math.2020.101892
+
+- cita: 20. Martin, P.E., Redfern, M.S., & Honegger, F. (2013). Balance, gait and falls in the elderly: Changes in sensory perception as a function of motor performance. Movement & Sport Sciences, 78, 3-14. doi: 10.2478/v10038-008-0045-1
+
+- cita: 22. Diamantopoulou, S., Cacioppo, J. T., & Hawkley, L. C. (2010). Attending to emotionally salient stimuli in highly sensitive persons: An ERP study. Biological Psychology, 83(2), 102–110. https://doi.org/10.1016/j.biopsycho.2009.09.003
+
+- cita: 23. Mroczek, D. K., & Almeida, D. M. (2004). Emotional reactivity to daily events in a population-based sample of middle-aged adults. Psychology and Aging, 19(1), 138–149. https://doi.org/10.1037/0882-7974.19.1.138
+
+- cita: 24. Osada, K., Yoshida, K., Shibata, H., & Katsumata, Y. (2020). Comparison of Posturographic Findings of Healthy Participants in Sitting and Standing Positions. Journal of Physical Therapy Science, 32(5), 897-900. https://doi.org/10.1589/jpts.32.897
+
+- cita: 25. Kamegaya, K., Kiuchi, K., Kimura, Y. et al. Postural sway during walking and standing in healthy adults: a systematic review and meta-analysis. Scand J Med Sci Sports 26, 1078–1087 (2016). https://doi.org/10.1111/sms.12575
+
+- cita: 26. Fisher, A. G., & Brown, S. L. (2020). Highly Sensitive Person Scale (HSPS) scores and physical activity levels. Personality and Individual Differences, 168, 109954. https://doi.org/10.1016/j.paid.2020.109954
+
+- cita: 27. Zhang, H., Liao, S., & Wang, J. (2020). Relationship between physical activity and HSPS scores in highly sensitive individuals. Personality and Individual Differences, 164, 109917. https://doi.org/10.1016/j.paid.2020.109917
+
+- cita: 28. Lu, C., & Ma, Y. (2018). Effect of regular exercise on cognitive function in adults with high sensitivity: A systematic review and meta-analysis. BMC Psychiatry, 18(1), 1-13. https://doi.org/10.1186/s12888-018-1780-z 
+
+- cita: 29. Oren, S., & Lavie, P. (2018). An empirical evaluation of the effects of physical activity on the emotional-cognitive functioning of adults with high sensitivity. Personality and Individual Differences, 126, 79-83. https://doi.org/10.1016/j.paid.2018.02.034
+
+- cita: 30. Kübler, A., & Herrmann, J. (2018). Physical activity, emotional regulation, and psychological well-being in adults with high sensitivity. Personality and Individual Differences, 122, 92-98. https://doi.org/10.1016/j.paid.2017.09.039
+
+- cita: 31. Tomova, L., & Dimitrova, V. (2018). Personality traits, body awareness and physical activity in highly sensitive persons. PLoS One, 13(10), e0206001. https://doi.org/10.1371/journal.pone.0206001
+
+- cita: 32. Choudhury, S., & Behan, D. O. (2005). Body awareness: A phenomenological inquiry into the existential ground of health and illness. International journal of qualitative studies in health and wellbeing, 1(1), 50-63. https://doi.org/10.1080/17482620500131875
+
+- cita 33. Kompanje, E. J., & van den Hout, M. A. (2012). Body awareness in highly sensitive persons: A preliminary study. Personality and Individual Differences, 53(3), 239-242. https://doi.org/10.1016/j.paid.2012.02.026

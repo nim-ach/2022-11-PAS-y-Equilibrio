@@ -32,11 +32,12 @@ a <- ggplot(probs, aes(hsps_score, plogis(fit))) +
                   ymax = plogis(fit + se.fit * ci_prob(p = .5)),
                   fill = "50%")) +
   geom_line(col = "white") +
+  geom_hline(yintercept = .5, lty = 2) +
   scale_fill_manual(values = c("95%" = "#FDE0DD", "80%" = "#FA9FB5", "50%" = "#C51B8A"), 
                     aesthetics = c("col", "fill")) +
   ggdist::theme_ggdist() +
   scale_y_continuous(limits = c(0, 1)) +
-  labs(x = "Puntaje HSPS", y = "Probabilidad",
+  labs(x = "HSPS score", y = "Probability",
        fill = "CI")
 
 b <- ggplot(probs, aes(hsps_score, exp(fit))) +
@@ -54,11 +55,12 @@ b <- ggplot(probs, aes(hsps_score, exp(fit))) +
                     aesthetics = c("col", "fill")) +
   ggdist::theme_ggdist() +
   geom_hline(yintercept = 1, lty = 2) +
-  labs(x = "Puntaje HSPS", y = "OR",
+  labs(x = "HSPS score", y = "OR",
        fill = "CI")
 
 fig <- ggpubr::ggarrange(a, b, ncol = 2, labels = c("A.", "B."), common.legend = TRUE)
 
 print(fig)
 
-ggsave("manuscript/figures/fig-1.pdf", plot = fig)
+ggsave("manuscript/figures/fig-1.pdf", plot = fig, width = 8, height = 8)
+ggsave("manuscript/figures/fig-1.jpeg", plot = fig, width = 8, height = 8, dpi = 300)
