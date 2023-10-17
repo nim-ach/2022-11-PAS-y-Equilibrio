@@ -48,8 +48,8 @@ if (.plot) {
   
   ## Conditional probability
   
-  ggplot(probs, aes(hsps_score, predicted, fill = group)) +
-    facet_grid(cols = vars(group)) +
+  ggplot(probs, aes(hsps_score, estimate, fill = group)) +
+    #facet_grid(cols = vars(group)) +
     geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .3) +
     geom_line(aes(col = group)) +
     scale_y_continuous(expand = c(0,0)) +
@@ -64,10 +64,10 @@ if (.plot) {
   
   ## Cummulative probability
   
-  ggplot(probs, aes(hsps_score, predicted, fill = factor(group))) +
+  ggplot(probs, aes(hsps_score, estimate, fill = factor(group))) +
     # facet_grid(cols = vars(group)) +
-    geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .3, position = "fill") +
-    # geom_line(aes(col = group)) +
+    geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .3) +
+    geom_line(aes(col = group)) +
     scale_y_continuous(expand = c(0,0)) +
     scale_x_continuous(expand = c(0,0)) +
     ggsci::scale_color_d3() +

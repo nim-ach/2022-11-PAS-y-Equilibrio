@@ -12,6 +12,6 @@ ind <- grep(pattern = "altered|corrected",
                      value = TRUE))
 
 muestra <- riskfall[, .SD, .SDcols = ind
-][, sex := `levels<-`(sex, c("Mujer", "Hombre"))][]
+][, sex := `levels<-`(sex, c("Female", "Male"))][]
 
 remove(ind, riskfall)
